@@ -1,0 +1,7 @@
+:root { color-scheme: light dark; --bg: #f7f4ee; --fg: #2b2a26; --link: #5a6b3c; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1f1e1b; --fg: #e8e4da; --link: #b5c48f; } }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
+h1 { font-size: 1.8rem; margin: 0 0 16px; }
+h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+a { color: var(--link); }
